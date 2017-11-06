@@ -1,0 +1,5 @@
+generate:
+milk==>mammal
+mammal hoof==>ungulate
+ungulate longneck longleg spotty==>giraffe
+animal is giraffe

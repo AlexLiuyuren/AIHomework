@@ -1,0 +1,24 @@
+validate:
+mammal carnivore tawny blackstrip==>tiger
+hairy==>mammal
+milk==>mammal
+eatmeat==>carnivore
+mammal carnivore tawny spotty==>leopard
+hairy==>mammal
+milk==>mammal
+eatmeat==>carnivore
+ungulate blackstrip==>zebra
+mammal ruminate==>ungulate
+hairy==>mammal
+milk==>mammal
+mammal hoof==>ungulate
+hairy==>mammal
+milk==>mammal
+ungulate longneck longleg spotty==>giraffe
+mammal ruminate==>ungulate
+hairy==>mammal
+milk==>mammal
+mammal hoof==>ungulate
+hairy==>mammal
+milk==>mammal
+animal is giraffe

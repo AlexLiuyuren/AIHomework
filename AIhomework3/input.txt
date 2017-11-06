@@ -1,0 +1,19 @@
+tiger leopard zebra giraffe penguin ostrich seagull
+15
+mammal carnivore tawny spotty#leopard
+mammal carnivore tawny blackstrip#tiger
+ungulate longneck longleg spotty#giraffe
+ungulate blackstrip#zebra
+bird longneck longleg nfly blackwhite#ostrich
+bird swim nfly blackwhite#penguin
+bird swim fly#seagull
+mammal ruminate#ungulate
+hairy#mammal
+milk#mammal
+feather#bird
+fly egg#bird
+eatmeat#carnivore
+laniarii claw eyeforward#canivore
+mammal hoof#ungulate
+1
+spotty longneck longleg milk hoof

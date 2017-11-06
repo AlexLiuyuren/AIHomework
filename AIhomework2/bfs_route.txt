@@ -1,0 +1,635 @@
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = E, symbol = ['Y']
+sign = 1, name = S, symbol = ['Y']
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = H, symbol = ['a']
+合一步骤1为:
+Y/X
+消解步骤1为:
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = E, symbol = ['Y']
+sign = 1, name = S, symbol = ['Y']
+Exprs:
+sign = 0, name = W, symbol = ['Y']
+sign = 1, name = H, symbol = ['Y']
+sign = 0, name = E, symbol = ['Y']
+
+
+合一步骤2为:
+Z/X
+消解步骤2为:
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 0, name = W, symbol = ['Z']
+sign = 1, name = H, symbol = ['Z']
+sign = 0, name = R, symbol = ['Z']
+
+
+合一步骤3为:
+A/X
+消解步骤3为:
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = S, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+
+
+合一步骤4为:
+a/X
+消解步骤4为:
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤5为:
+X/Y
+消解步骤5为:
+Exprs:
+sign = 0, name = E, symbol = ['Y']
+sign = 1, name = S, symbol = ['Y']
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = E, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+
+
+合一步骤6为:
+A/Y
+消解步骤6为:
+Exprs:
+sign = 0, name = E, symbol = ['Y']
+sign = 1, name = S, symbol = ['Y']
+Exprs:
+sign = 0, name = S, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = E, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+
+
+合一步骤7为:
+a/Y
+消解步骤7为:
+Exprs:
+sign = 0, name = E, symbol = ['Y']
+sign = 1, name = S, symbol = ['Y']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤8为:
+X/Z
+消解步骤8为:
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+
+
+合一步骤9为:
+a/Z
+消解步骤9为:
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 1, name = S, symbol = ['a']
+
+
+合一步骤10为:
+A/Z
+消解步骤10为:
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 0, name = S, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+
+
+合一步骤11为:
+a/Z
+消解步骤11为:
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤12为:
+a/Z
+消解步骤12为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = S, symbol = ['Z']
+Exprs:
+sign = 1, name = S, symbol = ['a']
+
+
+合一步骤13为:
+a/A
+消解步骤13为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 1, name = W, symbol = ['a']
+
+
+合一步骤14为:
+a/Z
+消解步骤14为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['Z']
+sign = 1, name = H, symbol = ['Z']
+sign = 0, name = R, symbol = ['Z']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤15为:
+a/A
+消解步骤15为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤16为:
+a/A
+消解步骤16为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤17为:
+a/X
+消解步骤17为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤18为:
+a/Aa/A
+消解步骤18为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤19为:
+
+消解步骤19为:
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤20为:
+X/A
+消解步骤20为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = S, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+
+
+合一步骤21为:
+a/A
+消解步骤21为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 1, name = R, symbol = ['a']
+Exprs:
+sign = 1, name = W, symbol = ['a']
+
+
+合一步骤22为:
+Y/A
+消解步骤22为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = W, symbol = ['Y']
+sign = 1, name = H, symbol = ['Y']
+sign = 0, name = E, symbol = ['Y']
+Exprs:
+sign = 0, name = R, symbol = ['Y']
+sign = 1, name = H, symbol = ['Y']
+sign = 0, name = E, symbol = ['Y']
+
+
+合一步骤23为:
+Z/A
+消解步骤23为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = W, symbol = ['Z']
+sign = 1, name = H, symbol = ['Z']
+sign = 0, name = R, symbol = ['Z']
+Exprs:
+sign = 0, name = R, symbol = ['Z']
+sign = 1, name = H, symbol = ['Z']
+sign = 0, name = R, symbol = ['Z']
+
+
+合一步骤24为:
+a/A
+消解步骤24为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = S, symbol = ['a']
+
+
+合一步骤25为:
+X/A
+消解步骤25为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = E, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = E, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+
+
+合一步骤26为:
+a/A
+消解步骤26为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = E, symbol = ['a']
+
+
+合一步骤27为:
+X/A
+消解步骤27为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = R, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+
+
+合一步骤28为:
+a/A
+消解步骤28为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤29为:
+a/A
+消解步骤29为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤30为:
+a/A
+消解步骤30为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+
+
+合一步骤31为:
+a/A
+消解步骤31为:
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = W, symbol = ['A']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤32为:
+a/X
+消解步骤32为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤33为:
+a/Y
+消解步骤33为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['Y']
+sign = 1, name = H, symbol = ['Y']
+sign = 0, name = E, symbol = ['Y']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 0, name = E, symbol = ['a']
+
+
+合一步骤34为:
+a/Z
+消解步骤34为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['Z']
+sign = 1, name = H, symbol = ['Z']
+sign = 0, name = R, symbol = ['Z']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤35为:
+a/A
+消解步骤35为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤36为:
+a/X
+消解步骤36为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤37为:
+a/A
+消解步骤37为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤38为:
+a/X
+消解步骤38为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['X']
+sign = 0, name = W, symbol = ['X']
+sign = 1, name = H, symbol = ['X']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤39为:
+a/A
+消解步骤39为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = R, symbol = ['A']
+sign = 1, name = H, symbol = ['A']
+sign = 0, name = R, symbol = ['A']
+Exprs:
+sign = 0, name = R, symbol = ['a']
+sign = 0, name = R, symbol = ['a']
+
+
+合一步骤40为:
+
+消解步骤40为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤41为:
+
+消解步骤41为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = S, symbol = ['a']
+
+
+合一步骤42为:
+
+消解步骤42为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = E, symbol = ['a']
+
+
+合一步骤43为:
+
+消解步骤43为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+sign = 1, name = H, symbol = ['a']
+Exprs:
+sign = 0, name = W, symbol = ['a']
+
+
+合一步骤44为:
+
+消解步骤44为:
+Exprs:
+sign = 0, name = H, symbol = ['a']
+Exprs:
+sign = 1, name = H, symbol = ['a']
+Exprs:
+
+
+消解完成，最终结论正确
