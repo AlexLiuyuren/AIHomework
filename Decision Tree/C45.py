@@ -1,9 +1,10 @@
 from tree import *
+import math
 
 
-def id3_optimizer(data, tmp_attributes, attributes):
+def c45_optimizer(data, tmp_attributes, attributes):
     best_attr = None
-    best_gain = -1
+    best_gain_ratio = -1
     best_weight = []
     best_data_set = []
     for attr in tmp_attributes:
@@ -28,10 +29,19 @@ def id3_optimizer(data, tmp_attributes, attributes):
                 weight.append(rv)
                 new_e += rv * ent(iset)
             gain = ro * (e1 - new_e)
-            # if all_zero(weight):
-            #     continue
-            if gain > best_gain:
-                best_gain = gain
+            IV = 1
+            if wdnesum != 0:
+                IV = 0
+                for iset in data_set:
+                    rv = Data.wsum(iset) / wdnesum
+                    if rv == 0:
+                        continue
+                    IV -= rv * math.log(rv, 2)
+            if IV == 0:
+                IV = 1
+            gain_ratio = gain / IV
+            if gain_ratio > best_gain_ratio:
+                best_gain_ratio = gain_ratio
                 best_attr = attr
                 best_weight = weight
                 index = find_attr(best_attr, attributes)
@@ -50,7 +60,7 @@ def id3_optimizer(data, tmp_attributes, attributes):
             ro = 0
             if wdnesum != 0:
                 ro = wdnesum / wdsum
-            best_continuous_gain = -1
+            best_continuous_gain_ratio = -1
             best_continuous_value = 0
             best_continuous_dataset = []
             best_continuous_weight = []
@@ -65,13 +75,24 @@ def id3_optimizer(data, tmp_attributes, attributes):
                     weight.append(rv)
                     new_e += rv * ent(iset)
                 continuous_gain = ro * (e1 - new_e)
-                if continuous_gain > best_continuous_gain:
-                    best_continuous_gain = continuous_gain
+                IV = 1
+                if wdnesum != 0:
+                    IV = 0
+                    for iset in data_set:
+                        rv = Data.wsum(iset) / wdnesum
+                        if rv == 0:
+                            continue
+                        IV -= rv * math.log(rv, 2)
+                if IV == 0:
+                    IV = 1
+                continuous_gain_ratio = continuous_gain / IV
+                if continuous_gain_ratio > best_continuous_gain_ratio:
+                    best_continuous_gain_ratio = continuous_gain_ratio
                     best_continuous_value = value
                     best_continuous_weight = weight
                     best_continuous_dataset = data_set
-            if best_continuous_gain > best_gain:
-                best_gain = best_continuous_gain
+            if best_continuous_gain_ratio > best_gain_ratio:
+                best_gain_ratio = best_continuous_gain_ratio
                 best_attr = attr
                 best_attr.value = best_continuous_value
                 best_weight = best_continuous_weight

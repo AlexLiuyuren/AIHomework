@@ -16,16 +16,18 @@ class Attribute:
         for line in all_lines:
             tmp = line.split()
             name = tmp[0]
-            range = tmp[1:]
+            irange = tmp[1:]
             discrete = True
             if tmp[1] == "continuous":
                 discrete = False
-                range = []
+                irange = []
                 for d in data:
-                    if d.value[i] not in range:
-                        range.append(d.value[i])
-                sorted(range)
-            attributes.append(Attribute(name, range, discrete))
+                    if d.value[i] != '?':
+                        d.value[i] = float(d.value[i])
+                        if d.value[i] not in irange:
+                            irange.append(d.value[i])
+                sorted(irange)
+            attributes.append(Attribute(name, irange, discrete))
             i += 1
         return attributes
 
@@ -45,4 +47,13 @@ class Attribute:
                 del attributes[i]
                 break
         return
+
+    @staticmethod
+    def change_types(attributes, data):
+        for i in range(len(attributes)):
+            if attributes[i].discrete is False:
+                for d in data:
+                    if d.value[i] != "?":
+                        d.value[i] = float(d.value[i])
+
 
