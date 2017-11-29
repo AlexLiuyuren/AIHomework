@@ -11,8 +11,8 @@ history_dizziness f t
 history_fluctuating f t
 history_fullness f t
 history_heredity f t
-history_nausea f t.
-history_noise f t.
+history_nausea f t
+history_noise f t
 history_recruitment f t
 history_ringing f t
 history_roaring f t
